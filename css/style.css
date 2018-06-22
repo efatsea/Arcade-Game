@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+section{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#result{
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    z-index: 10;
+    background-color: #fff;
+    opacity: 0.9;
+    flex-wrap: wrap;
+    
+}
+
+#result p{
+    font-size: 1.5em;
+}
+#result h1{
+    margin-top: 2em;
+    word-wrap: break-word;
+}
+
+.play{
+    text-decoration: none;
+    padding: 1.5em;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bold;
+    color: inherit;
+    margin-bottom: 2em;
+
+}
